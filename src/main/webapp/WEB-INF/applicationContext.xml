@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
+
+	<context:component-scan base-package="in.dota2.model" />
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<mvc:annotation-driven/>
+	<mvc:resources mapping="/media/**" location="/, /media/, classpath:/META-INF/media/" />
+	<mvc:default-servlet-handler />
+
+	<bean id="customPlaceholderConfig" class="in.dota2.util.SpringPropertiesUtil">
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE"/>
+		<property name="locations">
+			<list>
+				<value>classpath:properties/global.properties</value>
+				<value>classpath:properties/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!--context:property-placeholder location="classpath:properties/*.properties" /-->
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+	<!--jdbc:initialize-database data-source="dataSource" enabled="${jdbc.INITIALIZE_DATABASE}">
+		<jdbc:script location="${jdbc.initLocation}" />
+		<jdbc:script location="${jdbc.dataLocation}" />
+	</jdbc:initialize-database-->
+
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"
+		p:dataSource-ref="dataSource" p:mappingResources="hibernate.hbm.xml">
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.generate_statistics">${hibernate.generate_statistics}</prop>
+				<prop key="hibernate.connection.characterEncoding">${hibernate.encoding}</prop>
+				<prop key="hibernate.connection.charSet">${hibernate.encoding}</prop>
+			</props>
+		</property>
+		<property name="eventListeners">
+			<map>
+				<entry key="merge">
+					<bean class="org.springframework.orm.hibernate3.support.IdTransferringMergeEventListener" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager"
+		p:sessionFactory-ref="sessionFactory" />
+
+	<tx:annotation-driven />
+
+	<context:annotation-config />
+
+	<bean id="playerCatalog" class="in.dota2.model.DotaPlayerCatalogDAO" />
+
+	<bean id="dotaUserCatalogDAO" class="in.dota2.model.DotaUserCatalogDAO" />
+	<bean id="dotaPlayerCatalogDAO" class="in.dota2.model.DotaPlayerCatalogDAO" />
+	<bean id="dotaItemCatalogDAO" class="in.dota2.model.DotaItemCatalogDAO" />
+	<bean id="dotaImageCatalogDAO" class="in.dota2.model.DotaImageCatalogDAO" />	
+
+	<bean id="dotaPlayerSummaryService" class="in.dota2.service.DotaPlayerSummaryService"/>
+	<bean id="dotaItemService" class="in.dota2.service.DotaItemService"/>
+
+	<bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPath">
+			<value>/WEB-INF/templates/</value>
+		</property>
+		<property name="freemarkerSettings">
+			<props>
+				<prop key="tag_syntax">square_bracket</prop>
+				<prop key="locale">en_US</prop>
+			</props>
+		</property>
+		<property name="freemarkerVariables">
+			<map>
+				<entry key="site_name" value="${global.site_name}" />
+				<entry key="media_url" value="${global.media_url}" />
+				<entry key="debug_mode" value="${global.debug_mode}" />
+				<entry key="openid_provider" value="${global.openid_provider}" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="prefix" value=""/>
+		<property name="suffix" value=".html"/>
+	</bean>
+
+	<task:executor id="executorWithCallerRunsPolicy" pool-size="5-25" queue-capacity="100"
+		rejection-policy="CALLER_RUNS"/>
+	<!--task:scheduler id="steamAPIScheduler" pool-size="10"/-->
+	<task:annotation-driven executor="executorWithCallerRunsPolicy"/>
+
+	<import resource="security.xml" />
+
+</beans>

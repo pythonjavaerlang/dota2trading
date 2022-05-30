@@ -1,0 +1,2217 @@
+{
+	"result": {
+		"status": 1,
+		"num_backpack_slots": 840,
+		"items": [
+			{
+				"id": 622821058,
+				"original_id": 622821058,
+				"defindex": 10219,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483735,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 628102744,
+				"original_id": 628102744,
+				"defindex": 10285,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483750,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 632168624,
+				"original_id": 632168624,
+				"defindex": 10250,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483733,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 643069288,
+				"original_id": 643069288,
+				"defindex": 10223,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483757,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 647592371,
+				"original_id": 647592371,
+				"defindex": 10196,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483731,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 651142825,
+				"original_id": 651142825,
+				"defindex": 10244,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483728,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 653154648,
+				"original_id": 653154648,
+				"defindex": 10244,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483729,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 673840802,
+				"original_id": 673840802,
+				"defindex": 10270,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483762,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 697429471,
+				"original_id": 697429471,
+				"defindex": 5039,
+				"level": 1,
+				"quality": 4,
+				"inventory": 54,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 35,
+						"slot": 0
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"flag_cannot_craft": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					},
+					{
+						"defindex": 415,
+						"value": 1,
+						"float_value": 1.4012984643248171e-045
+					}
+				]
+				
+			},
+			{
+				"id": 705880723,
+				"original_id": 705880723,
+				"defindex": 10219,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483736,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 709421359,
+				"original_id": 709421359,
+				"defindex": 10216,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483763,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 721867774,
+				"original_id": 721867774,
+				"defindex": 10262,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483755,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 726160917,
+				"original_id": 726160917,
+				"defindex": 10251,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483743,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 736085967,
+				"original_id": 736085967,
+				"defindex": 10291,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483759,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 741534502,
+				"original_id": 741534502,
+				"defindex": 10218,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483752,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 744226354,
+				"original_id": 744226354,
+				"defindex": 10205,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483746,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 746241273,
+				"original_id": 746241273,
+				"defindex": 10271,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483748,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 748731488,
+				"original_id": 748731488,
+				"defindex": 10205,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483745,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 755483712,
+				"original_id": 755483712,
+				"defindex": 10292,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483744,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 763512180,
+				"original_id": 763512180,
+				"defindex": 10241,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483740,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 765780547,
+				"original_id": 765780547,
+				"defindex": 10263,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483726,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 779168390,
+				"original_id": 779168390,
+				"defindex": 10277,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483749,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 783171981,
+				"original_id": 783171981,
+				"defindex": 10291,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483760,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 794592787,
+				"original_id": 794592787,
+				"defindex": 10250,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483732,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 800394976,
+				"original_id": 800394976,
+				"defindex": 10224,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483738,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 806454372,
+				"original_id": 806454372,
+				"defindex": 10233,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483727,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 815646629,
+				"original_id": 815646629,
+				"defindex": 10211,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483741,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 822142822,
+				"original_id": 822142822,
+				"defindex": 10289,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483756,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 840545276,
+				"original_id": 840545276,
+				"defindex": 10215,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483754,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 849071005,
+				"original_id": 849071005,
+				"defindex": 10196,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483730,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 855059080,
+				"original_id": 855059080,
+				"defindex": 10256,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483739,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 860788278,
+				"original_id": 860788278,
+				"defindex": 10214,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483747,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 869706945,
+				"original_id": 869706945,
+				"defindex": 10224,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483737,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 879544097,
+				"original_id": 879544097,
+				"defindex": 10272,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483761,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 882755218,
+				"original_id": 882755218,
+				"defindex": 10197,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483734,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 887285499,
+				"original_id": 887285499,
+				"defindex": 10218,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483751,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 895883222,
+				"original_id": 895883222,
+				"defindex": 10211,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483742,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 900254819,
+				"original_id": 900254819,
+				"defindex": 10236,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483758,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 902884663,
+				"original_id": 902884663,
+				"defindex": 10293,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483753,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 321,
+						"value": 1157341184,
+						"float_value": 2013
+					}
+				]
+				
+			},
+			{
+				"id": 1408556830,
+				"original_id": 1408556830,
+				"defindex": 10371,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483722,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1109917696,
+						"float_value": 42
+					}
+				]
+				
+			},
+			{
+				"id": 1638359589,
+				"original_id": 1638359589,
+				"defindex": 15000,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483725,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638376788,
+				"original_id": 1638376788,
+				"defindex": 4411,
+				"level": 1,
+				"quality": 4,
+				"inventory": 40,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 8,
+						"slot": 3
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638389064,
+				"original_id": 1638389064,
+				"defindex": 15001,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483720,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638389065,
+				"original_id": 1638389065,
+				"defindex": 4395,
+				"level": 1,
+				"quality": 4,
+				"inventory": 46,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 8,
+						"slot": 2
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638389066,
+				"original_id": 1638389066,
+				"defindex": 10068,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483716,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638419001,
+				"original_id": 1638419001,
+				"defindex": 5069,
+				"level": 1,
+				"quality": 4,
+				"inventory": 36,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 42,
+						"slot": 0
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638452424,
+				"original_id": 1638452424,
+				"defindex": 4054,
+				"level": 1,
+				"quality": 4,
+				"inventory": 47,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 30,
+						"slot": 6
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638457491,
+				"original_id": 1638457491,
+				"defindex": 10137,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483711,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638457492,
+				"original_id": 1638457492,
+				"defindex": 4939,
+				"level": 1,
+				"quality": 4,
+				"inventory": 42,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 16,
+						"slot": 4
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638481227,
+				"original_id": 1638481227,
+				"defindex": 10025,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483714,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638481230,
+				"original_id": 1638481230,
+				"defindex": 4942,
+				"level": 1,
+				"quality": 4,
+				"inventory": 48,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 16,
+						"slot": 2
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1638493475,
+				"original_id": 1638493475,
+				"defindex": 10131,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483708,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1639029983,
+				"original_id": 1639029983,
+				"defindex": 5282,
+				"level": 1,
+				"quality": 9,
+				"inventory": 62,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1639029984,
+				"original_id": 1639029984,
+				"defindex": 17002,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483719,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1680976101,
+				"original_id": 1680976101,
+				"defindex": 5463,
+				"level": 1,
+				"quality": 4,
+				"inventory": 53,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 23,
+						"slot": 1
+					}
+				]
+				
+			},
+			{
+				"id": 1702498550,
+				"original_id": 1702498550,
+				"defindex": 4405,
+				"level": 1,
+				"quality": 4,
+				"inventory": 55,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 2,
+						"slot": 2
+					}
+				]
+				,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 0,
+						"float_value": 0
+					}
+				]
+				
+			},
+			{
+				"id": 1720611533,
+				"original_id": 1702903509,
+				"defindex": 5470,
+				"level": 1,
+				"quality": 4,
+				"inventory": 52,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 23,
+						"slot": 6
+					}
+				]
+				
+			},
+			{
+				"id": 1721603290,
+				"original_id": 1721603290,
+				"defindex": 10371,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483721,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1109917696,
+						"float_value": 42
+					}
+				]
+				
+			},
+			{
+				"id": 1912021335,
+				"original_id": 683033989,
+				"defindex": 10098,
+				"level": 1,
+				"quality": 14,
+				"inventory": 2147483709,
+				"quantity": 1,
+				"flag_cannot_trade": true
+			},
+			{
+				"id": 1960675777,
+				"original_id": 1917938618,
+				"defindex": 5469,
+				"level": 1,
+				"quality": 4,
+				"inventory": 51,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 23,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2045852692,
+				"original_id": 1103711666,
+				"defindex": 5351,
+				"level": 1,
+				"quality": 4,
+				"inventory": 34,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 44,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2048317483,
+				"original_id": 2048317483,
+				"defindex": 10334,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483718,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1108606976,
+						"float_value": 37
+					}
+				]
+				
+			},
+			{
+				"id": 2103597198,
+				"original_id": 2103597198,
+				"defindex": 5798,
+				"level": 1,
+				"quality": 4,
+				"inventory": 41,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 53,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2190220531,
+				"original_id": 2190220531,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483775,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2209367385,
+				"original_id": 2209367385,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483767,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2228606667,
+				"original_id": 2228606667,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483776,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2234441072,
+				"original_id": 2234441072,
+				"defindex": 5771,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483706,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 90,
+						"slot": 1
+					}
+				]
+				
+			},
+			{
+				"id": 2245541042,
+				"original_id": 2245541042,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483774,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2298334280,
+				"original_id": 2298334280,
+				"defindex": 10371,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483723,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1109917696,
+						"float_value": 42
+					}
+				]
+				
+			},
+			{
+				"id": 2309261622,
+				"original_id": 2120453718,
+				"defindex": 6012,
+				"level": 1,
+				"quality": 4,
+				"inventory": 11,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 53,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2309285025,
+				"original_id": 2309285025,
+				"defindex": 10409,
+				"level": 35,
+				"quality": 4,
+				"inventory": 2147483765,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 2000,
+						"is_output": false,
+						"quantity": 1,
+						"itemdef": 5977
+					},
+					{
+						"defindex": 2001,
+						"is_output": false,
+						"quantity": 1,
+						"quality": 20
+					},
+					{
+						"defindex": 2002,
+						"is_output": true,
+						"quantity": 1,
+						"itemdef": 10417
+					}
+				]
+				
+			},
+			{
+				"id": 2310753781,
+				"original_id": 1442753215,
+				"defindex": 5414,
+				"level": 1,
+				"quality": 4,
+				"inventory": 5,
+				"quantity": 1
+			},
+			{
+				"id": 2310753802,
+				"original_id": 1454221384,
+				"defindex": 5413,
+				"level": 1,
+				"quality": 4,
+				"inventory": 17,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 53,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2310753819,
+				"original_id": 1689085886,
+				"defindex": 5417,
+				"level": 1,
+				"quality": 4,
+				"inventory": 29,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 53,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2312893024,
+				"original_id": 2312893024,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483768,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2355093649,
+				"original_id": 2355093649,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483769,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2396632625,
+				"original_id": 963700566,
+				"defindex": 5350,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483678,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 44,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2412207745,
+				"original_id": 2412207745,
+				"defindex": 10371,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483724,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1109917696,
+						"float_value": 42
+					}
+				]
+				
+			},
+			{
+				"id": 2426798067,
+				"original_id": 2426798067,
+				"defindex": 10344,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483713,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 1000,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2427102835,
+				"original_id": 2427102835,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483770,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2438589594,
+				"original_id": 2438589594,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483771,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2463573604,
+				"original_id": 2463573604,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483772,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2469044381,
+				"original_id": 2351354495,
+				"defindex": 5799,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483683,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 53,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2481016538,
+				"original_id": 2481016538,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483773,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2483674544,
+				"original_id": 2449613172,
+				"defindex": 5687,
+				"level": 1,
+				"quality": 4,
+				"inventory": 24,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 62,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2483674551,
+				"original_id": 2430008829,
+				"defindex": 5513,
+				"level": 1,
+				"quality": 4,
+				"inventory": 50,
+				"quantity": 1
+			},
+			{
+				"id": 2483674572,
+				"original_id": 2463573603,
+				"defindex": 5672,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483707,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 93,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2483674577,
+				"original_id": 2244516422,
+				"defindex": 5190,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483705,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 80,
+						"slot": 6
+					}
+				]
+				
+			},
+			{
+				"id": 2483915620,
+				"original_id": 2483915620,
+				"defindex": 5283,
+				"level": 1,
+				"quality": 4,
+				"inventory": 67,
+				"quantity": 1
+			},
+			{
+				"id": 2486392009,
+				"original_id": 2486392009,
+				"defindex": 5688,
+				"level": 1,
+				"quality": 4,
+				"inventory": 12,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 62,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2486396184,
+				"original_id": 2486396184,
+				"defindex": 15407,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483764,
+				"quantity": 1,
+				"flag_cannot_trade": true,
+				"attributes": [
+					{
+						"defindex": 153,
+						"value": 1065353216,
+						"float_value": 1
+					},
+					{
+						"defindex": 416,
+						"value": 50,
+						"float_value": 7.0064923216240854e-044
+					},
+					{
+						"defindex": 417,
+						"value": 1065353216,
+						"float_value": 1
+					}
+				]
+				
+			},
+			{
+				"id": 2491271728,
+				"original_id": 2297374378,
+				"defindex": 5689,
+				"level": 1,
+				"quality": 4,
+				"inventory": 18,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 62,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2512240619,
+				"original_id": 2512240619,
+				"defindex": 10408,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483766,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1110966272,
+						"float_value": 46
+					}
+				]
+				
+			},
+			{
+				"id": 2512793250,
+				"original_id": 2512793250,
+				"defindex": 5191,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483704,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 80,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2530153454,
+				"original_id": 2530153454,
+				"defindex": 5479,
+				"level": 1,
+				"quality": 4,
+				"inventory": 6,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 62,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2544901064,
+				"original_id": 2544885417,
+				"defindex": 6007,
+				"level": 1,
+				"quality": 1,
+				"inventory": 8,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 1
+					}
+				]
+				
+			},
+			{
+				"id": 2544901069,
+				"original_id": 2544885418,
+				"defindex": 6115,
+				"level": 1,
+				"quality": 1,
+				"inventory": 26,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2544901073,
+				"original_id": 2544885419,
+				"defindex": 6116,
+				"level": 1,
+				"quality": 1,
+				"inventory": 32,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2544901084,
+				"original_id": 2544885420,
+				"defindex": 6202,
+				"level": 1,
+				"quality": 1,
+				"inventory": 2147483662,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2544901087,
+				"original_id": 2544885421,
+				"defindex": 6203,
+				"level": 1,
+				"quality": 1,
+				"inventory": 20,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2544901099,
+				"original_id": 2544885422,
+				"defindex": 6204,
+				"level": 1,
+				"quality": 1,
+				"inventory": 2,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 7
+					}
+				]
+				
+			},
+			{
+				"id": 2544901111,
+				"original_id": 2544885423,
+				"defindex": 6212,
+				"level": 1,
+				"quality": 1,
+				"inventory": 38,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 14,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2544901218,
+				"original_id": 2544885430,
+				"defindex": 6095,
+				"level": 1,
+				"quality": 1,
+				"inventory": 9,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2544901222,
+				"original_id": 2544885431,
+				"defindex": 6096,
+				"level": 1,
+				"quality": 1,
+				"inventory": 39,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2544901230,
+				"original_id": 2544885432,
+				"defindex": 6097,
+				"level": 1,
+				"quality": 1,
+				"inventory": 27,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2544901244,
+				"original_id": 2544885433,
+				"defindex": 6098,
+				"level": 1,
+				"quality": 1,
+				"inventory": 3,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 1
+					}
+				]
+				,
+				"style": 0
+			},
+			{
+				"id": 2544901256,
+				"original_id": 2544885434,
+				"defindex": 6101,
+				"level": 1,
+				"quality": 1,
+				"inventory": 33,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 6
+					}
+				]
+				
+			},
+			{
+				"id": 2544901283,
+				"original_id": 2544885435,
+				"defindex": 6102,
+				"level": 1,
+				"quality": 1,
+				"inventory": 21,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2544901292,
+				"original_id": 2544885436,
+				"defindex": 6100,
+				"level": 1,
+				"quality": 1,
+				"inventory": 15,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 69,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2544901306,
+				"original_id": 2544885437,
+				"defindex": 10423,
+				"level": 1,
+				"quality": 1,
+				"inventory": 2147483717,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 1000,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2544901334,
+				"original_id": 2544885439,
+				"defindex": 10426,
+				"level": 1,
+				"quality": 1,
+				"inventory": 2147483712,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 1000,
+						"slot": 6
+					}
+				]
+				
+			},
+			{
+				"id": 2544901352,
+				"original_id": 2544885441,
+				"defindex": 10455,
+				"level": 1,
+				"quality": 1,
+				"inventory": 45,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 1000,
+						"slot": 7
+					}
+				]
+				
+			},
+			{
+				"id": 2544901358,
+				"original_id": 2544885442,
+				"defindex": 10412,
+				"level": 1,
+				"quality": 1,
+				"inventory": 44,
+				"quantity": 1
+			},
+			{
+				"id": 2545260011,
+				"original_id": 2545260011,
+				"defindex": 5714,
+				"level": 1,
+				"quality": 4,
+				"inventory": 23,
+				"quantity": 1
+			},
+			{
+				"id": 2583570831,
+				"original_id": 119247026,
+				"defindex": 4290,
+				"level": 1,
+				"quality": 4,
+				"inventory": 22,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 74,
+						"slot": 1
+					}
+				]
+				
+			},
+			{
+				"id": 2583570874,
+				"original_id": 56434347,
+				"defindex": 4243,
+				"level": 1,
+				"quality": 4,
+				"inventory": 16,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 74,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2603368961,
+				"original_id": 2351604799,
+				"defindex": 5905,
+				"level": 1,
+				"quality": 4,
+				"inventory": 28,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 74,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2603369001,
+				"original_id": 91499546,
+				"defindex": 4289,
+				"level": 1,
+				"quality": 4,
+				"inventory": 10,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 74,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2603369025,
+				"original_id": 150876709,
+				"defindex": 4291,
+				"level": 1,
+				"quality": 4,
+				"inventory": 4,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 74,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2611308840,
+				"original_id": 2217457115,
+				"defindex": 5524,
+				"level": 1,
+				"quality": 4,
+				"inventory": 43,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 32,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2611308862,
+				"original_id": 1301361525,
+				"defindex": 5525,
+				"level": 1,
+				"quality": 4,
+				"inventory": 49,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 32,
+						"slot": 1
+					}
+				]
+				
+			},
+			{
+				"id": 2619457330,
+				"original_id": 1708262114,
+				"defindex": 4645,
+				"level": 1,
+				"quality": 4,
+				"inventory": 31,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 2
+					}
+				]
+				
+			},
+			{
+				"id": 2619457370,
+				"original_id": 1708262123,
+				"defindex": 4693,
+				"level": 1,
+				"quality": 4,
+				"inventory": 13,
+				"quantity": 1
+			},
+			{
+				"id": 2619457521,
+				"original_id": 1708262127,
+				"defindex": 4690,
+				"level": 1,
+				"quality": 4,
+				"inventory": 2147483655,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 6
+					}
+				]
+				
+			},
+			{
+				"id": 2619457608,
+				"original_id": 1708262130,
+				"defindex": 4691,
+				"level": 1,
+				"quality": 4,
+				"inventory": 19,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 3
+					}
+				]
+				
+			},
+			{
+				"id": 2619457671,
+				"original_id": 1708262134,
+				"defindex": 4692,
+				"level": 1,
+				"quality": 4,
+				"inventory": 25,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 4
+					}
+				]
+				
+			},
+			{
+				"id": 2619458076,
+				"original_id": 2618057564,
+				"defindex": 4950,
+				"level": 1,
+				"quality": 4,
+				"inventory": 1,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 0
+					}
+				]
+				
+			},
+			{
+				"id": 2619458760,
+				"original_id": 1677515686,
+				"defindex": 4387,
+				"level": 1,
+				"quality": 4,
+				"inventory": 37,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 5
+					}
+				]
+				
+			},
+			{
+				"id": 2635102773,
+				"original_id": 2635102773,
+				"defindex": 10469,
+				"level": 1,
+				"quality": 4,
+				"inventory": 129,
+				"quantity": 1,
+				"attributes": [
+					{
+						"defindex": 187,
+						"value": 1111490560,
+						"float_value": 48
+					}
+				]
+				
+			},
+			{
+				"id": 2635348446,
+				"original_id": 2635348446,
+				"defindex": 5850,
+				"level": 1,
+				"quality": 4,
+				"inventory": 130,
+				"quantity": 1,
+				"equipped": [
+					{
+						"class": 9,
+						"slot": 1
+					}
+				]
+				
+			}
+		]
+		
+	}
+}

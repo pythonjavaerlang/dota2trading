@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Dota2 ragfair</title>
+[#include "common/meta.ftl" parse=true]
+[#include "common/js_css.ftl" parse=true]
+<script language="JavaScript">
+
+$('a[id^=item_]').live('click', function(){
+ var posX=$(this).offset().left;
+ var posY=$(this).offset().top;
+ var currentElement=$(this);
+ var the_id=this.id.split('_')[1];
+ $.fn.dota2in('open_dialog',posX,posY, "Item", 'passed');
+ $('#dialog').data('leftOffsetOfElement', posX);
+ $('#dialog').data('topOffsetOfElement', posY);
+ $('#dialog').data('heightOfSelectedElement', currentElement.height());
+ $('#dialog').data('widthOfSelectedElement', currentElement.width());
+
+ $.fn.dota2in('setDialogPosition','open');
+ return false;
+});
+
+$(document).ready(function(){
+ $.getJSON('${rootPath}api/item/list?steamId64=${steamId64}', {}, function(data, status, xhr){
+	if(xhr.status!=200) $.fn.dota2in('shit_happened');
+	$('.items-block-right').empty();
+	if(data.length>0){
+		$('.items-block-right').append('<ul class="icon-list">');
+		$(data).each(function(i,v){
+			$('.items-block-right ul.icon-list').append('<li><a class="active" id="item_'+(v.uniqueIndex)+'" href="#"><img src="${rootPath}image/?id='+v.imageId+'" alt="'+v.name+'" width=64 height=64	/></a></li>');
+		});
+	}
+ });
+});
+</script>
+</head>
+
+<body class="home">
+
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <!-- Begin Header -->
+  [#include "common/header.ftl" parse=true]
+  <!-- End Header -->
+
+  <div class="main-content">
+     <div id="faux">
+       <div id="container">
+
+<!--  menu -->
+[#include "common/nav.ftl" parse=true]
+<!-- end menu -->
+
+          <div id="init_content">
+<div class="content_620_width">
+
+<div class="package" >
+ <div class="package_head">
+  <h3><a href="#" title="Last Offerings In Real-Time">${realName} ${personStateDisplay}</a></h3>
+ </div>
+ <div class="package_body">
+
+<!-- How it should be: http://www.freedom-friendly.org/media/highlighted-icons.png -->
+[#if !profileState ]
+<br/><br/><br/><center><div class="blue_error">Player's profile not yet available.</div></center>
+<br/><br/><br/><br/>
+[#else]
+<div class="items-block-left">
+<!-- div class="clearfix"-->
+<p style="float:left;margin-right:10px;"><img src="[#if player.image?has_content ]${rootPath}image/?id=${player.image.id}[#else]${media_url}steam.png[/#if]" /></p>
+<table style="float:left">
+<tr>
+	<td class="label">&nbsp;</td>
+	<td class="value">${player.personName} ${realName} [#if player.countryCode?has_content ]${player.countryCode}[/#if] [#if player.cityId?has_content ]${player.cityId}[/#if] [#if countryName?has_content ]${countryName}[/#if]</td>
+</tr>
+<tr>
+	<td class="label">Friends:</td>
+	<td class="value">
+[#if player.friends?has_content ]
+[#list player.friends as friend ]
+<img src="[#if friend.image?has_content ]${rootPath}image/?id=${friend.image.id}[#else]${media_url}steam.png[/#if]" />
+<a href="${rootPath}profile?steamId64=${friend.steamId64?string.number}" target="_blank">${friend.personName}</a>[#if friend_has_next ], [/#if]
+[/#list]
+[/#if]
+	</td>
+</tr>
+<tr>
+	<td class="label">Steam Profile URL</td>
+	<td class="value"><a href="${player.profileUrl}">${player.profileUrl}</a></td>
+</tr>
+</table>
+<!-- /div-->
+
+<div class="items-block-right">
+    <ul class="icon-list">
+        <li><a href="#"><img src="${media_url}weapon/coltM911_64.png" alt="" /></a></li>
+        <li><a href="#" class="disabled"><img src="${media_url}weapon/coltM911_64.png" alt="" /></a></li>
+        <li><a href="#"><img src="${media_url}weapon/coltM911_64.png" alt="" /></a></li>
+        <li><a href="#"><img src="${media_url}weapon/coltM911_64.png" alt="" /></a></li>
+    </ul>
+</div>
+
+  <div class="clear"></div>
+ </div>
+[/#if]
+
+[#include "common/footer.ftl" parse=true]
+</div>
+
+</div><!-- content_620_width -->
+
+            </div><!-- init_content -->
+          <div class="clear"></div>
+        </div><!-- container -->
+    </div><!-- faux -->
+</div><!-- main-content -->
+</div>
+<!-- End Wrapper -->
+</body>
+
+</html>

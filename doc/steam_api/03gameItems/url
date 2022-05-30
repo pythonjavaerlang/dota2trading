@@ -1,0 +1,3 @@
+http://api.steampowered.com/IEconItems_570/GetSchema/v0001/?key=38E18104520CAABF988757C031D77E97
+
+http://api.steampowered.com/ISteamEconomy/GetAssetClassInfo/v0001?key=38E18104520CAABF988757C031D77E97&format=json&language=en&appid=570&class_count=1&classid0=57939754

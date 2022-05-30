@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+	<http pattern="/media/**" security="none"/>
+	<http pattern="/users/signin" security="none"/>	
+	<http pattern="/users/signout" security="none"/>	
+	<http use-expressions="true">
+
+		<intercept-url pattern="/users/signin/**" access="permitAll" />
+		<intercept-url pattern="/" access="permitAll" />
+		<intercept-url pattern="/api/**" access="isAuthenticated()" />
+		<session-management invalid-session-url="/users/invalid-session" />
+
+		<openid-login login-page="/users/signin" 
+			user-service-ref="dotaUserService" 
+			authentication-failure-handler-ref="authenticationFailureHandler" />
+
+		<logout logout-url="/users/signout" />
+	</http>
+
+	<authentication-manager alias="authenticationManager">
+		<authentication-provider user-service-ref='dotaUserService' />
+	</authentication-manager>
+
+	<beans:bean class="in.dota2.security.SteamAuthenticationSuccessListener"/>
+	<beans:bean id="authenticationFailureHandler" class="in.dota2.security.SteamAuthenticationFailureHandler"/>
+
+	<beans:bean id="dotaUserService" class="in.dota2.service.DotaUserService"/>
+		
+</beans:beans>

@@ -1,0 +1,26 @@
+{
+"response": {
+"players": [
+{
+"steamid": "76561198111024952",
+"communityvisibilitystate": 3,
+"profilestate": 1,
+"personaname": "dota2in",
+"lastlogoff": 1381999903,
+"profileurl": "http://steamcommunity.com/id/dota2in/",
+"avatar": "http://media.steampowered.com/steamcommunity/public/images/avatars/fc/fc085960f326a8e2696eb91656d2aef19d2cc31e.jpg",
+"avatarmedium": "http://media.steampowered.com/steamcommunity/public/images/avatars/fc/fc085960f326a8e2696eb91656d2aef19d2cc31e_medium.jpg",
+"avatarfull": "http://media.steampowered.com/steamcommunity/public/images/avatars/fc/fc085960f326a8e2696eb91656d2aef19d2cc31e_full.jpg",
+"personastate": 0,
+"realname": "Dorian Grey",
+"primaryclanid": "103582791429521408",
+"timecreated": 1381854955,
+"personastateflags": 0,
+"loccountrycode": "UA",
+"locstatecode": "17",
+"loccityid": 45834
+}
+]
+
+}
+}

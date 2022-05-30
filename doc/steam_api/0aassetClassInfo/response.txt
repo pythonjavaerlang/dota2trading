@@ -1,0 +1,108 @@
+{
+	"result": {
+		"57939754": {
+			"icon_url": "F4fYAgAgs3_mHvP9hKhF56_LErNEUL0xM9pn4iFJGBeRgvD7ATj3eFHGuVv_yBF6qNEV7Bsc_Tx43T3jI05WRMeEsPRCNuhsfYrkDbyCCjf3hwPwHUrwMWDVL7V7WRxB2YL7rhhpsz8Wi75U99RKLv_ZV_VORqJnecQn4Q==",
+			"icon_url_large": "fatNcqlRyC2rzvNgQaHp68Xnh8PtIcZjfgpnf-RAtBv7rmWLqEmMKhwWucY6wb12wv2AnLJthm41DT1-5kf6SK2oJYTrR5M-MFrkkHmLpkrB8oHUsiDfZnwGcCq-UO0a5K9v0eEeyW1cDbSXOYjjLZj2ltfjPdA3K1V_KbJW-1m7qg==",
+			"icon_drag_url": "",
+			"name": "The Blood Chaser",
+			"market_hash_name": "Blood Chaser",
+			"market_name": "Blood Chaser",
+			"name_color": "D2D2D2",
+			"background_color": "",
+			"type": "Mythical Chain Weapon",
+			"tradable": "1",
+			"marketable": "1",
+			"fraudwarnings": "",
+			"descriptions": {
+				"0": {
+					"type": "html",
+					"value": "Forged in Demons' Blood",
+					"color": "9da1a9",
+					"app_data": {
+						"def_index": "20002",
+						"is_itemset_name": "1"
+					}
+				},
+				"1": {
+					"type": "html",
+					"value": "Demon Blood Helm",
+					"color": "6c7075",
+					"app_data": {
+						"def_index": "4008"
+					}
+				},
+				"2": {
+					"type": "html",
+					"value": "Demon Blood Armor",
+					"color": "6c7075",
+					"app_data": {
+						"def_index": "4009"
+					}
+				},
+				"3": {
+					"type": "html",
+					"value": "Demon Blood Guard",
+					"color": "6c7075",
+					"app_data": {
+						"def_index": "4010"
+					}
+				},
+				"4": {
+					"type": "html",
+					"value": "The Blood Chaser",
+					"color": "6c7075",
+					"app_data": {
+						"def_index": "4004"
+					}
+				},
+				"5": {
+					"type": "html",
+					"value": "A three section chained haft with double bladed axe head at the top. Nearly as dangerous to it's wielder as it is to the enemy.",
+					"app_data": ""
+				}
+			},
+			"tags": {
+				"0": {
+					"internal_name": "unique",
+					"name": "Standard",
+					"category": "Quality",
+					"color": "D2D2D2",
+					"category_name": "Quality"
+				},
+				"1": {
+					"internal_name": "Rarity_Mythical",
+					"name": "Mythical",
+					"category": "Rarity",
+					"color": "8847ff",
+					"category_name": "Rarity"
+				},
+				"2": {
+					"internal_name": "DOTA_WearableType_Wearable",
+					"name": "Equipment",
+					"category": "Type",
+					"category_name": "Type"
+				},
+				"3": {
+					"internal_name": "weapon",
+					"name": "Weapon",
+					"category": "Slot",
+					"category_name": "Type"
+				},
+				"4": {
+					"internal_name": "npc_dota_hero_axe",
+					"name": "Axe",
+					"category": "Hero",
+					"category_name": "Hero"
+				},
+				"5": {
+					"internal_name": "HeroID",
+					"name": "2",
+					"category": "HeroID",
+					"category_name": "HeroID"
+				}
+			},
+			"classid": "57939754"
+		},
+		"success": true
+	}
+}

@@ -1,0 +1,70 @@
+body {
+ background-color: white;
+}
+.content_404 {
+	margin:90px auto 0 auto;
+	width:680px;
+	height:250px;
+}
+
+.content_404-head
+{
+	height:45px;
+	line-height:45px;
+}
+
+.content_404-head img
+{
+	float:left;
+	margin-right:15px;
+}
+
+.content_404-menu-sn
+{
+	color:#000;
+	font-size:1.17em;
+}
+
+.content_404-menu-sn:after
+{
+	content:'\2022';
+	margin:0 0.3em;
+}
+
+.content_404-menu-sn:last-child:after
+{
+	content:'';
+	margin-left:0em;
+}
+
+.content_404-content
+{
+	margin-top:80px;
+}
+
+.content_404-content-text
+{
+	height:115px;
+	padding-top:30px;
+}
+
+.content_404-content img
+{
+	float:left;
+	margin-right:60px;
+}
+
+.content_404-content h1
+{
+	font-size:2.5em;
+	font-weight:normal;
+	color:#666;
+	margin:0;
+	padding:0;
+	margin-bottom:0.5em;
+}
+
+.content_404-content span
+{
+	font-size:1.17em;
+}

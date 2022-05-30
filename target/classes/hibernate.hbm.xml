@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- Mapping file for the Hibernate implementation of the PlayerCatalog interface. -->
+<hibernate-mapping auto-import="true" default-lazy="false">
+
+	<class name="in.dota2.model.DotaPlayer" table="player">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="username" column="`username`" access="field"/>
+		<property name="steamId64" column="`steamId64`" />
+		<property name="personName" column="`personName`" />
+		<property name="realName" column="`realName`" />
+		<property name="profileUrl" column="`profileUrl`" />
+		<property name="personState" column="`personState`" />
+		<property name="visibilityState" column="`visibilityState`" />
+		<property name="profileState" column="`profileState`" />	
+		<property name="playerClanId" column="`playerClanId`" />
+		<property name="gameId" column="`gameId`" />
+		<property name="countryCode" column="`countryCode`" />
+		<property name="cityId" column="`cityId`" />
+		<property name="fetchTime" column="`fetchTime`" type="date" />
+		<property name="dateAdded" column="`dateAdded`" type="date" />
+		<property name="lastLogoff" column="`lastLogoff`" type="date" />
+		<set name="friends" table="friendship" cascade="save-update">
+			<key column="`fromPlayerId`"/>
+			<many-to-many column="`toPlayerId`" class="in.dota2.model.DotaPlayer"/>
+		</set>
+		<set name="items" table="`playerItem`" cascade="save-update">
+			<key column="`playerId`"/>
+			<one-to-many class="in.dota2.model.DotaPlayerItem"/>
+		</set>
+		<many-to-one name="image" class="in.dota2.model.DotaImage" fetch="select">
+			<column name="`imageId`"/>
+		</many-to-one>
+	</class>
+	<class name="in.dota2.model.DotaUser" table="dota_user">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="username" column="`username`" access="field" />
+		<property name="enabled" column="`enabled`"  access="field" />
+		<property name="accountNonLocked" column="`accountNonLocked`"  access="field" />
+		<property name="accountNonExpired" column="`accountNonExpired`"  access="field" />
+		<property name="credentialsNonExpired" column="`credentialsNonExpired`"  access="field" />
+		<property name="lastLogin" column="`lastLogin`"  type="date" />
+		<property name="dateJoined" column="`dateJoined`"  type="date" />
+	</class>
+	<class name="in.dota2.model.DotaItemQuality" table="`itemQuality`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="key" column="`key`" access="field" />
+		<property name="value" column="`value`" access="field" />
+	</class>
+	<class name="in.dota2.model.DotaItem" table="item">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="name" column="`name`" access="field" />
+		<property name="uniqueIndex" column="`defindex`" access="field" />
+		<property name="typeDisplay" column="`typeDisplay`" access="field" />
+		<property name="description" column="`description`" access="field" />
+		<property name="properName" column="`properName`" access="field" />
+		<property name="quality" column="`quality`" access="field" />
+		<property name="qualityDisplay" column="`qualityDisplay`" access="field" />
+		<set name="capabilities" table="`itemAttachedCapability`" cascade="save-update">
+			<key column="`itemId`"/>
+			<many-to-many column="`capabilityId`" class="in.dota2.model.DotaItemCapability"/>
+		</set>
+		<set name="attributes" table="`itemAttribute`" cascade="save-update">
+			<key column="`itemId`"/>
+			<one-to-many class="in.dota2.model.DotaItemAttribute"/>
+		</set>
+		<many-to-one name="image" class="in.dota2.model.DotaImage" fetch="select">
+			<column name="`imageId`"/>
+		</many-to-one>
+	</class>
+	<class name="in.dota2.model.DotaItemCapability" table="`itemCapability`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="name" column="`name`" access="field" />
+		<property name="description" column="`description`" access="field" />
+	</class>
+	<class name="in.dota2.model.DotaItemAttribute" table="`itemAttribute`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<many-to-one name="item" class="in.dota2.model.DotaItem" fetch="select">
+			<column name="`itemId`" not-null="true"/>
+		</many-to-one>
+		<property name="name" column="`name`" access="field" />
+		<property name="value" column="`value`" access="field" />
+		<property name="effectTypeDisplay" column="`effectTypeDisplay`" access="field" />
+		<property name="hidden" column="`hidden`" access="field" />	
+		<property name="descriptionFormat" column="`descriptionFormat`" access="field" />
+		<property name="descriptionString" column="`descriptionString`" access="field" />
+		<property name="uniqueIndex" column="`defindex`" access="field"/>
+	</class>
+	<class name="in.dota2.model.DotaPlayerItem" table="`playerItem`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<many-to-one name="dotaPlayer" class="in.dota2.model.DotaPlayer" fetch="select">
+			<column name="`playerId`" not-null="true"/>
+		</many-to-one>
+		<many-to-one name="dotaItem" class="in.dota2.model.DotaItem" fetch="select">
+			<column name="`itemId`" not-null="true"/>
+		</many-to-one>
+		<property name="uniqueIndex" column="`defindex`" access="field" />
+		<property name="level" column="`level`" access="field" />
+		<property name="cannotTrade" column="`cannotTrade`" access="field" />
+		<property name="cannotCraft" column="`cannotCraft`" access="field" />
+		<property name="quality" column="`quality`" access="field" />
+		<property name="qualityDisplay" column="`qualityDisplay`" access="field" />
+		<property name="customName" column="`customName`" access="field" />
+		<property name="customDescription" column="`customDescription`" access="field" />
+		<set name="attributes" table="`playerItemAttribute`" cascade="save-update">
+			<key column="`itemId`"/>
+			<one-to-many class="in.dota2.model.DotaPlayerItemAttribute"/>
+		</set>
+	</class>
+	<class name="in.dota2.model.DotaPlayerItemAttribute" table="`playerItemAttribute`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<many-to-one name="playerItem" class="in.dota2.model.DotaPlayerItem" fetch="select">
+			<column name="`itemId`" not-null="true"/>
+		</many-to-one>
+		<property name="value" column="`value`" access="field" />
+		<property name="uniqueIndex" column="`defindex`" access="field"/>		
+	</class>
+	<class name="in.dota2.model.DotaAttribute" table="`attribute`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="name" column="`name`" access="field" />
+		<property name="descriptionFormat" column="`descriptionFormat`" access="field" />
+		<property name="descriptionString" column="`descriptionString`" access="field" />
+		<property name="uniqueIndex" column="`defindex`" access="field"/>
+		<property name="hidden" column="`hidden`" access="field" />
+	</class>
+	<class name="in.dota2.model.DotaImage" table="`image`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="fn" column="`fn`" access="field" />
+		<property name="sha1" column="`sha1`" access="field" />
+		<many-to-one name="image" class="in.dota2.model.DotaImage" fetch="select">
+			<column name="`imageId`"/>
+		</many-to-one>
+	</class>
+	<class name="in.dota2.model.DotaPlayerOffer" table="`playerOffer`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<property name="message" column="`message`" access="field" />
+		<property name="dateAdded" column="`dateAdded`" access="field" />
+		<set name="playerItems" table="`playerOfferItem`" cascade="save-update">
+			<key column="`playerOfferId`"/>
+			<one-to-many class="in.dota2.model.DotaPlayerOfferItem"/>
+		</set>
+		<set name="demandedItems" table="`playerDemandItem`" cascade="save-update">
+			<key column="`playerOfferId`"/>
+			<one-to-many class="in.dota2.model.DotaPlayerDemandedItem"/>
+		</set>
+	</class>
+	<class name="in.dota2.model.DotaPlayerOfferItem" table="`playerOfferItem`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<many-to-one name="offer" class="in.dota2.model.DotaPlayerOffer" fetch="select">
+			<column name="`playerOfferId`"/>
+		</many-to-one>
+		<many-to-one name="playerItem" class="in.dota2.model.DotaPlayerItem" fetch="select">
+			<column name="`playerItemId`"/>
+		</many-to-one>
+	</class>
+	<class name="in.dota2.model.DotaPlayerDemandedItem" table="`playerDemandItem`">
+		<id name="id" column="id">
+			<generator class="identity" />
+		</id>
+		<many-to-one name="offer" class="in.dota2.model.DotaPlayerOffer" fetch="select">
+			<column name="`playerOfferId`"/>
+		</many-to-one>
+		<many-to-one name="demandedItem" class="in.dota2.model.DotaItem" fetch="select">
+			<column name="`demandedItemId`"/>
+		</many-to-one>
+	</class>
+
+</hibernate-mapping>
